@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basictestng.TestngBasics">
+      <class name="assignments.A7_SoftAssert">
         <methods>
-          <include name="verify_checkboxDemo"/>
           <include name="launch_chrome"/>
+          <include name="verify_allOptionsText"/>
         </methods>
-      </class> <!-- basictestng.TestngBasics -->
+      </class> <!-- assignments.A7_SoftAssert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -23,21 +23,24 @@ public class TestngBasics {
 
 	@Test
 	public void verify_url() {
-		String expected_url = "https://selenium.obsqurazone.com/siple-form-demo.php";
+		System.out.println("3");
+		String expected_url = "c";
 		String actual_url = driver.getCurrentUrl();
 		Assert.assertEquals(actual_url, expected_url);
 	}
 
-	@Test
+	@Test(priority = 10, enabled = false)
 	public void verify_buttonText() {
+		System.out.println("1");
 		WebElement show_message = driver.findElement(By.xpath("//button[text()='Show Message']"));
 		String expected_text = "submit";
 		String actual_text = show_message.getText();
 		Assert.assertEquals(actual_text, expected_text,"FAILED");
 	}
 
-	@Test
+	@Test(priority = 5, dependsOnMethods ="verify_url" )
 	public void verify_checkboxDemo() {
+		System.out.println("2");
 		WebElement checkbox_demo = driver.findElement(By.xpath("//a[text()='Checkbox Demo']"));
 		checkbox_demo.click();
 		WebElement checkbox1 = driver.findElement(By.xpath("//input[@class='form-check-input']"));

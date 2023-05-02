@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="multipletest">
+	<test name="test1">
+		<classes>
+			<class name="basictestng.BrowserLaunch"></class>
+			<class name="assignments.A1_LaunchFirefox_Amazon"></class>
+		</classes>
+	</test>
+	<test name="test2">
+		<classes>
+			<class name="basictestng.BrowserLaunch"></class>
+			<class name="assignments.A2_LaunchFirefox_Facebook"></class>
+		</classes>
+	</test>
+</suite>
