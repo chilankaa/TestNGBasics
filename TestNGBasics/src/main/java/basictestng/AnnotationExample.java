@@ -21,7 +21,7 @@ public class AnnotationExample {
 	}
 	@BeforeClass
 	public void before_class() {
-		System.out.println("Inside before class");
+		System.out.println("Inside before classes");
 	}
 	@BeforeMethod
 	public void before_method() {
