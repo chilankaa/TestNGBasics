@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignments.A7_SoftAssert">
+      <class name="assignments.A13_TextImageVerification">
         <methods>
           <include name="launch_chrome"/>
-          <include name="verify_allOptionsText"/>
+          <include name="verify_newUserTextAndImageDisplay"/>
         </methods>
-      </class> <!-- assignments.A7_SoftAssert -->
+      </class> <!-- assignments.A13_TextImageVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

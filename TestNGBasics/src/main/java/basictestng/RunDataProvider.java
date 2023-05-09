@@ -26,4 +26,13 @@ public class RunDataProvider {
 		WebElement searchbutton = driver.findElement(By.xpath("//input[@id='nav-search-submit-button']"));
 		searchbutton.click();
 	}
+
+	@Test(dataProvider = "Test data for facebook", dataProviderClass = DataProviders.class)
+	public void verify_enteredProduct(String userid, String password) {
+		driver.get("https://www.facebook.com/");
+		WebElement username = driver.findElement(By.xpath("//input[@name='email']"));
+		username.sendKeys(userid);
+		WebElement passwordd = driver.findElement(By.xpath("//input[@name='pass']"));
+		passwordd.sendKeys(password);
+	}
 }

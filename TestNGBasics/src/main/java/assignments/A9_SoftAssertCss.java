@@ -24,6 +24,17 @@ public class A9_SoftAssertCss {
 	@Test
 	public void verify_buttonColors() {
 		WebElement autoclosable_success=driver.findElement(By.xpath("//button[@id='autoclosable-btn-success']"));
-		System.out.println(autoclosable_success.getCssValue("background-color"));
+		String expectedColor="rgba(40, 167, 69, 1)";
+		String actualColor=autoclosable_success.getCssValue("background-color");
+		softassert.assertEquals(actualColor, expectedColor);
+		WebElement autoclosable_warning=driver.findElement(By.xpath("//button[@id='autoclosable-btn-warning']"));
+		String expectedColor1="rgba(255, 193, 7, 1)";
+		String actualColor1=autoclosable_warning.getCssValue("background-color");
+		softassert.assertEquals(actualColor1, expectedColor1);
+		WebElement autoclosable_danger=driver.findElement(By.xpath("//button[@id='autoclosable-btn-danger']"));
+		String expectedColor2="rgba(220, 53, 69, 1)";
+		String actualColor2=autoclosable_danger.getCssValue("background-color");
+		softassert.assertEquals(actualColor2, expectedColor2);
+		
 	}
 }

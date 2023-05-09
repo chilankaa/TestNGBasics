@@ -1,87 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-01T20:48:58 IST" name="parallel" finished-at="2023-05-01T20:49:12 IST" duration-ms="13293">
+  <suite started-at="2023-05-05T15:52:51 IST" name="Default suite" finished-at="2023-05-05T15:52:55 IST" duration-ms="4230">
     <groups>
     </groups>
-    <test started-at="2023-05-01T20:48:58 IST" name="test1" finished-at="2023-05-01T20:48:59 IST" duration-ms="420">
-      <class name="basictestng.AnnotationExample">
-        <test-method is-config="true" signature="before_test()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:58 IST" name="before_test" finished-at="2023-05-01T20:48:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_test -->
-        <test-method is-config="true" signature="before_class()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:58 IST" name="before_class" finished-at="2023-05-01T20:48:58 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_class -->
-        <test-method is-config="true" signature="before_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:58 IST" name="before_method" finished-at="2023-05-01T20:48:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method signature="testcase1()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:58 IST" name="testcase1" finished-at="2023-05-01T20:48:58 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="after_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="after_method" finished-at="2023-05-01T20:48:59 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method is-config="true" signature="before_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="before_method" finished-at="2023-05-01T20:48:59 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method signature="testcase2()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="testcase2" finished-at="2023-05-01T20:48:59 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method is-config="true" signature="after_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="after_method" finished-at="2023-05-01T20:48:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method is-config="true" signature="before_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="before_method" finished-at="2023-05-01T20:48:59 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method signature="testcase3()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="testcase3" finished-at="2023-05-01T20:48:59 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-        <test-method is-config="true" signature="after_method()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="after_method" finished-at="2023-05-01T20:48:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_method -->
-        <test-method is-config="true" signature="after_class()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="after_class" finished-at="2023-05-01T20:48:59 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_class -->
-        <test-method is-config="true" signature="after_test()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:59 IST" name="after_test" finished-at="2023-05-01T20:48:59 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_test -->
-      </class> <!-- basictestng.AnnotationExample -->
-    </test> <!-- test1 -->
-    <test started-at="2023-05-01T20:48:58 IST" name="test2" finished-at="2023-05-01T20:49:12 IST" duration-ms="13293">
-      <class name="basictestng.BrowserLaunch">
-        <test-method is-config="true" signature="launch_chrome()[pri:0, instance:basictestng.BrowserLaunch@7e6f74c]" started-at="2023-05-01T20:48:58 IST" name="launch_chrome" finished-at="2023-05-01T20:49:12 IST" duration-ms="13122" status="PASS">
+    <test started-at="2023-05-05T15:52:51 IST" name="Default test" finished-at="2023-05-05T15:52:55 IST" duration-ms="4230">
+      <class name="assignments.A14_Search">
+        <test-method is-config="true" signature="launch_chrome()[pri:0, instance:assignments.A14_Search@3f4f9acd]" started-at="2023-05-05T15:52:51 IST" name="launch_chrome" finished-at="2023-05-05T15:52:55 IST" duration-ms="3487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_chrome -->
-        <test-method signature="verify_userlogin()[pri:0, instance:basictestng.BrowserLaunch@7e6f74c]" started-at="2023-05-01T20:49:12 IST" name="verify_userlogin" finished-at="2023-05-01T20:49:12 IST" duration-ms="3" status="PASS">
+        <test-method signature="verify_userDetails()[pri:0, instance:assignments.A14_Search@3f4f9acd]" started-at="2023-05-05T15:52:55 IST" name="verify_userDetails" finished-at="2023-05-05T15:52:55 IST" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_userlogin -->
-      </class> <!-- basictestng.BrowserLaunch -->
-      <class name="basictestng.AnnotationExample">
-        <test-method is-config="true" signature="before_suite()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:48:58 IST" name="before_suite" finished-at="2023-05-01T20:48:58 IST" duration-ms="56" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before_suite -->
-        <test-method is-config="true" signature="after_suite()[pri:0, instance:basictestng.AnnotationExample@48f2bd5b]" started-at="2023-05-01T20:49:12 IST" name="after_suite" finished-at="2023-05-01T20:49:12 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_suite -->
-      </class> <!-- basictestng.AnnotationExample -->
-    </test> <!-- test2 -->
-  </suite> <!-- parallel -->
+        </test-method> <!-- verify_userDetails -->
+      </class> <!-- assignments.A14_Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
